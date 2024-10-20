@@ -1,54 +1,28 @@
-# Next.js & NextUI Template
+![Parkir Rapih Logo (1)](https://github.com/user-attachments/assets/5e6e3731-055a-4972-8fac-410dd116e710)
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+# ParkirRapih.id - Kami Ada Untuk Anda!
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
+ParkirRapih adalah solusi pengelolaan parkir digital yang dirancang untuk memudahkan setiap acara Anda. Dengan layanan kami, Anda tidak perlu lagi memikirkan kerumitan pengaturan parkir.
 
-## Technologies Used
+Fitur Utama:
+Pengelolaan Parkir Profesional: Tim ParkirRapih siap membantu mengelola parkir untuk setiap acara Anda.
+Kemudahan bagi Pengunjung: Pengunjung hanya perlu datang, scan, dan bayar. Tidak perlu membawa uang tunai, membuat pengalaman parkir menjadi lebih nyaman dan efisien.
+Dengan ParkirRapih, Anda bisa fokus pada kesuksesan acara Anda tanpa harus khawatir tentang pengaturan parkir.
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+**Ingin mencoba?**
+- *[Saya ingin jadi pengunjung](https://jala.cc/parkirrapih)*
+- *[Saya ingin jadi tukang parkir](https://jala.cc/akutukangparkir)*
 
-## How to Use
+**Ingin lihat designnya?**
+- [Figma](https://www.figma.com/design/vEQQYLQZUX8gHbl1LDZ3bn/Jasa-Atur-Parkir?node-id=38-1992&node-type=frame&t=Bc6ae00rJe1Oji8K-0)
 
-### Use the template with create-next-app
 
-To create a new project based on this template using `create-next-app`, run the following command:
+***
 
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
-# parkirrapih
+![Google Keep (1) (1)](https://github.com/user-attachments/assets/d05c3a74-89ad-473b-b733-7082759208f8)
+### Brought to you by P-Man Team for SHRIMPHACK 2024
+- **[HACKER]** [Dika Mahendra](https://dikamahendra.com)
+- **[HUSTLER]** [Fajri Muharram](https://instagram.com/fjrmuharram)
+- **[HIPSTER]** [M Subhi Alfajar](https://instagram.com/msubhi_al)
+- **[HIPSTER]** [Abdi Wibowo M](https://instagram.com/abdiwm)
+- **[hacker(?) not really]** [Ronny F](https://bing.com)
