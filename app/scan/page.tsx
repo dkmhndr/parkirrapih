@@ -404,6 +404,15 @@ function ScanSuccessfulModal({ isScanSuccessful, setScanSuccessful, handleVehicl
               <FaCheckCircle className='mx-auto' />
             </div>
             <h2 className="text-center text-lg font-semibold">Parkir Berhasil</h2>
+            <p>Pilih Jenis Kendaraan</p>
+          </div>
+          <div className="flex justify-center gap-4 mt-4">
+            <Button onClick={() => handleVehicleType('car')} color="primary" size="lg">
+              Mobil 🚗
+            </Button>
+            <Button onClick={() => handleVehicleType('motorcycle')} color="primary" size="lg">
+              Motor 🛵
+            </Button>
           </div>
         </ModalBody>
         <ModalFooter>
