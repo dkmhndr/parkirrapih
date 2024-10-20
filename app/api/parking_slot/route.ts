@@ -44,6 +44,8 @@ export async function GET(req: NextRequest, { params }: { params: { id: string[]
     occupiedCarSlots,
     occupiedMotorcycleSlots,
     remainingCarSlots,
-    remainingMotorcycleSlots
+    remainingMotorcycleSlots,
+    carSlots : event.car_slot,
+    motorcycleSlots : event.motorcycle_slot
   }, { status: 200 });
 }

@@ -136,7 +136,6 @@ export default function Home() {
         throw new Error('Failed to fetch parking slot data');
       }
       const data = await response.json();
-      console.log(data);
       setParkingState(data); // Set the fetched data to the parking state
     } catch (error) {
       console.error('Error fetching parking slot data:', error);
@@ -338,13 +337,13 @@ function ParkingCheckScreen(parkingState: any, availableTimes: any, setScreenSta
       <div className="flex flex-col gap-2 items-center">
         <ProgressCard 
           value={parkingState.occupiedCarSlots} 
-          maxValue={parkingState.remainingCarSlots} 
+          maxValue={parkingState.carSlots} 
           emoji="🚗" 
           nextAvailable={getNextAvailableTime('car')} 
         />
         <ProgressCard 
           value={parkingState.occupiedMotorcycleSlots} 
-          maxValue={parkingState.remainingMotorcycleSlots} 
+          maxValue={parkingState.motorcycleSlots} 
           emoji="🛵" 
           nextAvailable={getNextAvailableTime('motorcycle')} 
         />
