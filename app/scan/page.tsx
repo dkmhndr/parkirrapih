@@ -157,9 +157,9 @@ export default function ScanPage() {
         return; // Exit if capacity is full
       }
 
+      onOpenModalScanSuccessful();
       fetchParkingSlot();
       setScreenState(ScreenState.PARKING_CHECK);
-      // Handle success (e.g., show a success message or navigate to another screen)
     } catch (error) {
       console.error('Error creating parking data:', error);
       setScreenState(ScreenState.PARKING_CHECK);
